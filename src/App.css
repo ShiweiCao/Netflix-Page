@@ -7,3 +7,54 @@
   width: 500px;
   margin: 50px auto;
 }
+
+body {
+  background: black;
+}
+
+hr {
+  color: white;
+}
+
+svg.logo {
+  width: 200px;
+  fill: red;
+  margin: 30px 30px;
+}
+
+h1, h2 {
+  color: white;
+  padding: 30px;
+  font-family: helvetica;
+}
+
+p {
+  color: white;
+}
+
+.container {
+  height: 400px;
+  overflow: auto;
+  /* background: yellow; */
+  display: flex;
+}
+
+.listItem {
+  height: 350px;
+  width: 200px;
+  /* background: red; */
+  margin-left: 20px;
+  text-align: center;
+}
+
+.cover {
+  height: 280px;
+}
+
+button {
+  visibility: hidden;
+}
+
+div.listItem:hover button{
+  visibility: visible;
+}

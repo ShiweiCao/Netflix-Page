@@ -25,8 +25,8 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.listen(9000, () => {
-    console.log('Listening on port 9000')}
+app.listen(9001, () => {
+    console.log('Listening on port 9001')}
 );
 
 // app.get('/mylists', (req, res) => {
