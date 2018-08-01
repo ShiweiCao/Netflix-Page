@@ -50,7 +50,7 @@ class App extends Component {
                                     <ListItem data={data} type="recommend" func={this.add}/>
                                 ))
                             ) : (
-                                <h2> There is nothing to recommend for you! </h2>
+                                <h2> There is nothing to recommend! </h2>
                             )
                         }
                     </div>

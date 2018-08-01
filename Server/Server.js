@@ -82,8 +82,6 @@ app.post('/mylists/:id', (req, res) => {
                 if(err) {
                     res.status(500).json({message: err})
                 } else {
-                    // obj = {...data};
-                    console.log(obj._doc);
                     var mylist = new Mylist();
                     mylist.title = obj._doc.title;
                     mylist.id = obj._doc.id;
@@ -115,7 +113,6 @@ app.post('/recommendations/:id', (req, res) => {
                 if(err) {
                     res.status(500).json({message: err})
                 } else {
-                    // obj = {...data};
                     var recommendation = new Recommendation();
                     recommendation.title = obj._doc.title;
                     recommendation.id = obj._doc.id;
