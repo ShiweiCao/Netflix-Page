@@ -87,7 +87,6 @@ app.post('/mylists/:id', (req, res) => {
                     mylist.id = obj._doc.id;
                     mylist._id = obj._doc._id;
                     mylist.img = obj._doc.img;
-                    console.log(mylist);
                     mylist.save( err => {
                         if(err) {
                             res.status(500).json({message: err})

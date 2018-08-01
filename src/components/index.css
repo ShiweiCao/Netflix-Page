@@ -1,0 +1,40 @@
+div.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("http://backgroundcheckall.com/wp-content/uploads/2017/12/netflix-background-9.jpg");
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+button.mylist {
+  background-color: rgb(209, 28, 28); 
+  font-family: helvetica;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+button.mylist:hover {
+  background-color: rgb(255, 2, 2)
+}
+
+button.mylist:active {
+  background-color: rgb(126, 34, 34)
+}
+
+div.Intro {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+div.Intro>h1 {
+  font-size: 50px;
+}
