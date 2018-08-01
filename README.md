@@ -19,13 +19,13 @@ The index page looks like this:
 
 You can click on the red button to access to the "Mylist" Page. It is just like shown below:
 
-![Index pages](/Screenshots/mylist.jpg)
+![Mylist pages](/Screenshots/Mylist.jpg)
 
 
 When you hover cursor onto it, it will show the `REMOVE` in the Mylist part or `ADD` in Recomendation part.
 
 
-![Index pages](/Screenshots/hover.jpg)
+![Item hover](/Screenshots/hover.jpg)
 
 When you click the `REMOVE` button, the item will be removed from `My List`, and will be added into the `Recommendations`. And it is similar when you click `ADD` button.
 
